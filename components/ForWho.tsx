@@ -5,7 +5,7 @@ import { useRef } from 'react'
 
 const checkItems = [
   'Tienes clínica de medicina estética o cirugía estética',
-  'Recibes leads por WhatsApp, Instagram o el formulario de tu web',
+  'Recibes consultas por WhatsApp, Instagram o el formulario de tu web',
   'Pierdes consultas porque no puedes responder a todas horas',
   'Quieres escalar sin contratar más personal de recepción',
   'Tu ticket medio por paciente supera los 200€',
@@ -13,7 +13,7 @@ const checkItems = [
 
 const notForItems = [
   'Clínicas que ya tienen recepcionista 24/7',
-  'Centros con menos de 10 leads al mes',
+  'Centros con menos de 10 mensajes al mes',
   'Negocios fuera del sector estético y de salud',
 ]
 

@@ -44,7 +44,7 @@ export default function Privacidad() {
               <li>Número de teléfono (WhatsApp)</li>
               <li>Dirección de email</li>
               <li>Ciudad</li>
-              <li>Volumen aproximado de leads mensuales</li>
+              <li>Volumen aproximado de consultas mensuales</li>
             </ul>
             <p className="mt-3 text-[#6b6258]">
               No instalamos cookies de seguimiento, no usamos herramientas de analítica

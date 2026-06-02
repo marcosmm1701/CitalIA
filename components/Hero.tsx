@@ -68,7 +68,7 @@ export default function Hero({ onOpenModal, onOpenVideo }: HeroProps) {
           className="text-lg md:text-xl text-[#9a9080] max-w-2xl mx-auto mb-10 leading-relaxed"
         >
           El primer agente de IA especializado en medicina estética que convierte
-          leads de WhatsApp, Instagram y tu formulario web en pacientes, a cualquier hora.
+          mensajes de WhatsApp, Instagram y tu formulario web en pacientes, a cualquier hora.
         </motion.p>
 
         {/* CTAs */}

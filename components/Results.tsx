@@ -11,7 +11,7 @@ import { motion, useInView } from 'framer-motion'
 const promises = [
   {
     headline: '<1 min',
-    label: 'Tiempo de respuesta a cada lead',
+    label: 'Tiempo de respuesta a cada mensaje',
     description: 'Cada mensaje recibe respuesta en menos de un minuto. Garantizado. Da igual la hora, el día o el volumen.',
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">

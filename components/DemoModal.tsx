@@ -374,7 +374,7 @@ export default function DemoModal({ isOpen, onClose, intent = 'demo' }: DemoModa
                         {errors.ciudad && <p className={errorClass}>{errors.ciudad.message}</p>}
                       </div>
                       <div>
-                        <label className="text-xs text-[#9a9080] mb-1.5 block">Leads/mes por WhatsApp *</label>
+                        <label className="text-xs text-[#9a9080] mb-1.5 block">Consultas/mes por WhatsApp *</label>
                         <select
                           {...register('leads', {
                             required: 'Campo obligatorio',

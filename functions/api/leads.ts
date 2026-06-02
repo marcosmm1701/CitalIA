@@ -193,7 +193,7 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
     `📱 Teléfono: ${safe.telefono}`,
     `📧 Email: ${safe.email}`,
     `📍 Ciudad: ${safe.ciudad}`,
-    `📊 Leads/mes: ${LEAD_LABELS[safe.leads] || safe.leads}`,
+    `📊 Consultas/mes: ${LEAD_LABELS[safe.leads] || safe.leads}`,
     '',
     `🕐 ${new Date().toLocaleString('es-ES', { timeZone: 'Europe/Madrid' })}`,
   ]

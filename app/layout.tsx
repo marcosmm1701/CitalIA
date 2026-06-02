@@ -30,14 +30,18 @@ export const metadata: Metadata = {
     template: '%s | Citalia',
   },
   description:
-    'El primer agente de IA especializado en medicina estética que convierte leads de WhatsApp e Instagram en pacientes, 24/7. Primer mes gratis. Activo en 48h.',
+    'El primer agente de IA especializado en medicina estética que convierte mensajes de WhatsApp e Instagram en pacientes, 24/7. Primer mes gratis. Activo en 48h.',
+  // Keywords pensadas para lo que busca una doctora/directora de clínica,
+  // no para vocabulario de marketing/ventas.
   keywords: [
     'agente IA medicina estética',
     'chatbot clínica estética',
     'whatsapp bot medicina estética',
-    'captación pacientes clínica',
-    'automatización leads estética',
+    'captar pacientes whatsapp',
+    'responder mensajes whatsapp clínica',
+    'automatizar consultas clínica estética',
     'inteligencia artificial clínica',
+    'asistente virtual clínica estética',
   ],
   authors: [{ name: 'Citalia', url: 'https://citaliaapp.com' }],
   creator: 'Citalia',
@@ -48,14 +52,14 @@ export const metadata: Metadata = {
     siteName: 'Citalia',
     title: 'Citalia — Tu clínica vende mientras tú duermes',
     description:
-      'Agente IA especializado en medicina estética. Convierte leads de WhatsApp e Instagram en pacientes a cualquier hora. Primer mes gratis.',
+      'Agente IA especializado en medicina estética. Convierte mensajes de WhatsApp e Instagram en pacientes a cualquier hora. Primer mes gratis.',
     // La imagen OG la genera /app/opengraph-image.tsx automáticamente.
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Citalia — Tu clínica vende mientras tú duermes',
     description:
-      'Agente IA especializado en medicina estética. Convierte leads de WhatsApp en pacientes 24/7.',
+      'Agente IA especializado en medicina estética. Convierte mensajes de WhatsApp en pacientes 24/7.',
   },
   robots: {
     index: true,
@@ -94,7 +98,7 @@ export default function RootLayout({
               name: 'Citalia',
               applicationCategory: 'BusinessApplication',
               description:
-                'Agente de IA conversacional especializado en medicina estética. Atiende leads por WhatsApp e Instagram 24/7.',
+                'Agente de IA conversacional especializado en medicina estética. Atiende mensajes por WhatsApp e Instagram 24/7.',
               offers: {
                 '@type': 'Offer',
                 price: '349',

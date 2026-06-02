@@ -12,7 +12,7 @@ const problems = [
     headline: '60%',
     title: 'de los mensajes llegan fuera de tu horario',
     description:
-      'Leads que escriben a las 22h, el domingo o en festivo. Sin respuesta, se van. Con Citalia, cada mensaje tiene atención inmediata.',
+      'Mensajes que llegan a las 22h, el domingo o en festivo. Sin respuesta, se van. Con Citalia, cada mensaje tiene atención inmediata.',
     source: null,
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
@@ -22,9 +22,9 @@ const problems = [
   },
   {
     headline: '5 min',
-    title: 'es todo lo que tienes para no perder una lead',
+    title: 'es todo lo que tienes para no perder un cliente',
     description:
-      'Tras 5 minutos sin respuesta, el 78% de los leads contacta a la competencia. Tu agente responde en segundos, siempre.',
+      'Tras 5 minutos sin respuesta, el 78% de los interesados contacta a la competencia. Tu agente responde en segundos, siempre.',
     source: 'Fuente: Harvard Business Review, "The Short Life of Online Sales Leads"',
     icon: (
       <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
@@ -119,7 +119,7 @@ export default function Problems() {
             El problema
           </span>
           <h2 className="font-serif text-4xl md:text-5xl font-semibold text-[#f5f0e8] leading-tight">
-            Si no atiendes una lead,
+            Si no contestas a tiempo,
             <br />
             <span className="italic text-gradient-gold">la atiende la clínica de al lado</span>
           </h2>

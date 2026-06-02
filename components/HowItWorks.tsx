@@ -117,13 +117,13 @@ export default function HowItWorks() {
               Cómo funciona
             </span>
             <h2 className="font-serif text-4xl md:text-5xl font-semibold text-[#f5f0e8] leading-tight mb-6">
-              Convierte leads en
+              Convierte mensajes en
               <br />
               <span className="italic text-gradient-gold">pacientes mientras duermes</span>
             </h2>
             <p className="text-[#9a9080] leading-relaxed mb-8">
               El agente atiende el mensaje en segundos, identifica el tratamiento de
-              interés, cualifica al lead y cierra la cita — o lo transfiere a tu
+              interés, cualifica al interesado y cierra la cita — o lo transfiere a tu
               equipo cuando está listo para reservar.
             </p>
 

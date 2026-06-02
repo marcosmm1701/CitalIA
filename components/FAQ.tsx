@@ -6,7 +6,7 @@ import { motion, useInView, AnimatePresence } from 'framer-motion'
 const faqs = [
   {
     q: '¿El agente dice cosas médicas que no debe?',
-    a: 'No. El agente está entrenado para no dar diagnósticos, dosis ni indicaciones médicas. Su rol es informar sobre tratamientos de forma general, cualificar al lead y derivarlo a la clínica. Para cualquier consulta médica, el agente redirige al equipo de profesionales.',
+    a: 'No. El agente está entrenado para no dar diagnósticos, dosis ni indicaciones médicas. Su rol es informar sobre tratamientos de forma general, cualificar al interesado y derivarlo a la clínica. Para cualquier consulta médica, el agente redirige al equipo de profesionales.',
   },
   {
     q: '¿Mis pacientes van a saber que es IA?',
@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     q: '¿Se integra con el formulario de mi web?',
-    a: 'Sí. Citalia conecta con el formulario de tu web independientemente de la plataforma: WordPress, Webflow, Squarespace, Shopify o un desarrollo a medida. Cada vez que alguien rellena tu formulario, el agente le contesta al instante por el canal que prefieras (email o WhatsApp si dejó número). Así centralizas las tres fuentes de leads — WhatsApp, Instagram y web — en un único flujo.',
+    a: 'Sí. Citalia conecta con el formulario de tu web independientemente de la plataforma: WordPress, Webflow, Squarespace, Shopify o un desarrollo a medida. Cada vez que alguien rellena tu formulario, el agente le contesta al instante por el canal que prefieras (email o WhatsApp si dejó número). Así centralizas las tres fuentes de consultas — WhatsApp, Instagram y web — en un único flujo.',
   },
   {
     q: '¿Qué pasa si quiero cancelar?',
