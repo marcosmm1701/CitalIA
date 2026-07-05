@@ -26,7 +26,7 @@ const LEAD_OPTIONS = ['menos-20', '20-50', '50-100', 'mas-100'] as const
 
 // Distingue qué CTA abrió el modal. Esto cambia copy del modal Y formato
 // del mensaje que llega a Telegram (ver functions/api/leads.ts).
-export type ModalIntent = 'demo' | 'pro-waitlist'
+export type ModalIntent = 'demo' | 'custom-quote'
 
 interface DemoModalProps {
   isOpen: boolean
@@ -54,15 +54,15 @@ const COPY: Record<ModalIntent, {
     successBody:
       'Hemos recibido tu solicitud. Te escribimos por WhatsApp en menos de 24 horas para acordar la demo.',
   },
-  'pro-waitlist': {
-    title: 'Únete a la lista de espera',
-    subtitle: 'Te avisamos en cuanto el Plan Pro esté disponible',
-    submit: 'Apuntarme a la lista →',
-    submitting: 'Apuntando…',
-    successTitle: '¡Apuntado! 🚀',
-    successSubtitle: 'Serás de los primeros en saberlo',
+  'custom-quote': {
+    title: 'Solicita tu presupuesto personalizado',
+    subtitle: 'Plan a medida para cadenas y necesidades especiales',
+    submit: 'Solicitar presupuesto →',
+    submitting: 'Enviando…',
+    successTitle: '¡Perfecto! 🎉',
+    successSubtitle: 'Te contactamos en menos de 24 horas',
     successBody:
-      'Estás en la lista. Te avisaremos por WhatsApp en cuanto el Plan Pro esté operativo, con condiciones especiales para early-adopters.',
+      'Hemos recibido tu solicitud. Te escribimos por WhatsApp en menos de 24 horas para preparar tu propuesta a medida.',
   },
 }
 

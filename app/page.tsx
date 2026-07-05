@@ -21,7 +21,7 @@ export default function Home() {
   const [videoOpen, setVideoOpen] = useState(false)
 
   const openDemo = () => setModalIntent('demo')
-  const openProWaitlist = () => setModalIntent('pro-waitlist')
+  const openCustomQuote = () => setModalIntent('custom-quote')
   const closeModal = () => setModalIntent(null)
   const openVideo = () => setVideoOpen(true)
   const closeVideo = () => setVideoOpen(false)
@@ -34,7 +34,7 @@ export default function Home() {
       <HowItWorks />
       <Results />
       <ForWho />
-      <Pricing onOpenModal={openDemo} onOpenProWaitlist={openProWaitlist} />
+      <Pricing onOpenModal={openDemo} onOpenCustomQuote={openCustomQuote} />
       <FAQ />
       <CTAFinal onOpenModal={openDemo} />
       <Footer />

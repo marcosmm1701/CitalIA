@@ -34,7 +34,7 @@ const LEAD_LABELS: Record<string, string> = {
 }
 
 // Allow-list de intents. Cualquier valor fuera de esto cae a 'demo'.
-const INTENT_OPTIONS = ['demo', 'pro-waitlist'] as const
+const INTENT_OPTIONS = ['demo', 'custom-quote'] as const
 type Intent = typeof INTENT_OPTIONS[number]
 
 // Caracteres de control que pueden romper o inyectar en cualquier
@@ -179,10 +179,10 @@ export const onRequestPost: PagesFunction<Env> = async ({ request, env }) => {
   //    caracteres especiales; cualquier contenido del usuario es seguro
   //    porque Telegram lo trata como texto literal). El header cambia
   //    según el intent para distinguir de un vistazo qué tipo de solicitud
-  //    es (demo vs lista de espera del Plan Pro).
+  //    es (demo vs presupuesto a medida).
   const header =
-    intent === 'pro-waitlist'
-      ? '🚀 PLAN PRO · LISTA DE ESPERA'
+    intent === 'custom-quote'
+      ? '💼 PRESUPUESTO A MEDIDA SOLICITADO'
       : '🎯 NUEVA DEMO SOLICITADA'
 
   const lines = [
