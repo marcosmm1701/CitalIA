@@ -9,7 +9,7 @@ import Results from '@/components/Results'
 import ForWho from '@/components/ForWho'
 import Pricing from '@/components/Pricing'
 import FAQ from '@/components/FAQ'
-import CTAFinal from '@/components/CTAFinal'
+import Channels from '@/components/Channels'
 import Footer from '@/components/Footer'
 import DemoModal, { type ModalIntent } from '@/components/DemoModal'
 import VideoModal from '@/components/VideoModal'
@@ -36,7 +36,7 @@ export default function Home() {
       <ForWho />
       <Pricing onOpenModal={openDemo} onOpenCustomQuote={openCustomQuote} />
       <FAQ />
-      <CTAFinal onOpenModal={openDemo} />
+      <Channels />
       <Footer />
       <DemoModal
         isOpen={modalIntent !== null}
