@@ -29,10 +29,10 @@ export default function Footer() {
           {/* Contact + Social */}
           <div className="flex items-center gap-4">
             <a
-              href="mailto:hola@citaliaapp.com"
+              href="mailto:marcos.munoz@citaliaapp.com"
               className="text-[#6b6258] hover:text-[#9a9080] transition-colors text-sm"
             >
-              hola@citaliaapp.com
+              marcos.munoz@citaliaapp.com
             </a>
             <a
               href="https://instagram.com/citaliaapp"
